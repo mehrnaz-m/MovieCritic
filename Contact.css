@@ -1,0 +1,182 @@
+body {
+    font-family: "KoHo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    display: inline;
+    color: white;
+    font-size: 29.8px;
+}
+
+.header form {
+    display: inline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 88px;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    padding-left: 72.84px;
+}
+
+.logo {
+    height: 56.29px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.item2 {
+    margin-right: 56px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 82.78px;
+    width: 326.14px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+}
+
+.item2 button {
+    background-color: #83CA10;
+    height: 19.87px;
+    width: 25.66px;
+    border: none;
+    border-radius: 82.78px;
+    margin-left: auto;
+}
+
+.button {
+    height: 15px;
+}
+
+input {
+    border: none;
+    font-style: italic;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px 50px 10px;
+    margin: 0;
+    font-size: 19.87px;
+    border-bottom: 1px solid #333333;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a.active {
+    color: #83CA10;
+    font-weight: bold;
+}
+
+nav {
+    padding-bottom: 40px;
+}
+
+.navbar li a:hover {
+    color: #83CA10;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color:  #83CA10;
+    padding: 12px 20px;
+    margin-left: 45%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  /* Style the container/contact section */
+  .contactus{
+    border-radius: 5px;
+    background-color: #f2f2f2; 
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    content: center;
+    width: 75%;
+    margin-top: 6px;
+    margin-left: 12%;
+    padding: 10px;
+  }
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 172.18px;
+}
+
+.socials {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 50px 10px;
+    margin: 0;
+}
+
+.socials li {
+    padding: 0px 10px;
+}
+
+.icon {
+    height: 36px;
+    padding-bottom: 5px;
+}
