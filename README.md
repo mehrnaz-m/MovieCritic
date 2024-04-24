@@ -2,13 +2,10 @@
 MovieCritic is a web application designed to provide users with information about the latest movie releases, reviews, and more. This repository contains the HTML, CSS, and JavaScript code for the MovieCritic website.
 
 ## Table of Contents
-[Description](https://github.com/mehrnaz-m/MovieCritic/edit/main/README.md#description)
-
-[Features](https://github.com/mehrnaz-m/MovieCritic/edit/main/README.md#features)
-
-[Usage](https://github.com/mehrnaz-m/MovieCritic/edit/main/README.md#usage)
-
-[Credits](https://github.com/mehrnaz-m/MovieCritic/edit/main/README.md#usage)
+- Description
+- Features
+- Usage
+- Credits
 
 ## Description
 The MovieCritic website is built using HTML, CSS, and JavaScript. It provides users with a platform to explore new movie releases, read reviews, and stay updated with the latest movie trends. The website features sections for new releases, upcoming movies, and latest reviews, along with a search functionality to find movies based on keywords.
